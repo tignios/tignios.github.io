@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Marmite Sarthoise</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="icon" href="big-pot.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <video autoplay muted loop>
+            <source src="https://lacensie.fr/wp-content/uploads/2025/01/copy_33249BAF-977B-4910-B360-F477C38BF1A6.mov" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+        <div class="overlay">
+            <h1>Plongez dans la Marmite Sarthoise</h1>
+            <h2>Un week-end pour se retrouver, partager et célébrer !</h2>
+        </div>
+        <a href="#next-section" class="scroll-button">Participer</a>
+    </div>
+    <div id="next-section" class="section">
+        <h2>Pourquoi participer ?</h2>
+        <p>Parce qu’on a envie de vous retrouver, de faire la fête, et que ça fait trop longtemps ! Et que le meilleur moment, c’est là, maintenant, bientôt… ce printemps !</p>
+        <h3>La Marmite Sarthoise, c’est :</h3>
+        <ul>
+            <li>Un week-end de retrouvailles et de nouvelles rencontres.</li>
+            <li>De la bonne bouffe et du farniente.</li>
+            <li>Des activités pour se faire plaisir et se surprendre.</li>
+            <li>De la musique, de la danse, et surtout…</li>
+            <li>La célébration de nos 50 ans.</li>
+        </ul>
+        <i><p>Tout cela dans un cadre champêtre, pour un grand bol d’air frais à la campagne.</p></i>
+    </div>
+    <div id="next-section" class="section">
+        <h3>Quand et où ?</h3>
+        <p>📅 Le week-end de la Pentecôte (7-8-9 juin 2025)</p>
+        <p>📍 La Censie, en Sarthe.</p>
+        <div class="map-section">
+            <div class="map-container" id="map"></div>
+        </div>
+    </div>
+    <div id="next-section" class="section">
+        <h3>Comment venir</h3>
+        <div class="transport-options">
+            <div class="section-transport">
+                <h4>Vous venez avec votre voiture ?</h4>
+                <p><span class="highlight">Dites-le nous !</span> On remplira votre voiture avec des piétons et du matériel.</p>
+            </div>
+    
+            <div class="section-transport">
+                <h4>Vous venez en covoiturage ?</h4>
+                <p><span class="highlight">C'est l'option la moins chère !</span> Sur Blablacar, indiquez comme destination « Péage de Loué – A81 – Sortie N°1 ». C'est sur le trajet par autoroute des véhicules qui vont en Bretagne depuis Paris, avec de nombreuses offres. À dix minutes de la maison, nous viendrons vous chercher.</p>
+            </div>
+    
+            <div class="section-transport">
+                <h4>Vous venez en train ?</h4>
+                <p>La gare la plus proche est <strong>Noyen-sur-Sarthe</strong> (à 15 km de La Censie). Si la correspondance au Mans est trop longue, vous pouvez aller à <strong>Sablé-sur-Sarthe</strong> (les trains sont plus fréquents, mais la gare est un peu plus loin). On s’organisera pour venir vous chercher.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="next-section" class="section">
+        <h2>Au programme</h2>
+    
+        <div class="day-program">
+            <h3>Vendredi soir</h3>
+            <p>Accueil et premiers moments partagés autour d’un apéro convivial.</p>
+        </div>
+    
+        <div class="day-program">
+            <h3>Samedi</h3>
+            <p><strong>Midi :</strong> Repas sorti du sac pour le midi.</p>
+            <p><strong>Après-midi :</strong> Activités (détente, jeux, ateliers surprises).</p>
+            <p><strong>Soirée :</strong> Soirée festive avec musique et danse.</p>
+        </div>
+    
+        <div class="day-program">
+            <h3>Dimanche</h3>
+            <p><strong>Matin :</strong> Farniente, ateliers, balades et préparation d’un grand repas partagé.</p>
+        </div>
+    
+        <div class="day-program">
+            <h3>Lundi matin</h3>
+            <p><strong>Petit-déjeuner :</strong> Petit-déjeuner et au revoir chaleureux… jusqu’à l’année prochaine !</p>
+        </div>
+    </div>
+    <div id="next-section" class="section">
+        <h2>Côté pratique</h2>
+    
+        <div class="practical-info">
+            <h3>Les nuits</h3>
+            <p>Pour l’hébergement, il y a quatre formules possibles :</p>
+            <ul>
+                <li><strong>Formule “reconnexion à la nature”</strong> : vous venez avec votre tente.</li>
+                <li><strong>Formule “peace and love”</strong> : vous dormez en dortoir (inscription indispensable).</li>
+                <li><strong>Formule “jeunes parents”</strong> : quelques chambres sont disponibles.</li>
+                <li><strong>Formule “le confort d’abord”</strong> : réservez votre hébergement à proximité <a href="https://www.vallee-de-la-sarthe.com/preparer-votre-sejour/ou-dormir/" target="_blank">en cliquant ici</a>.</li>
+            </ul>
+        </div>
+    
+        <div class="practical-info">
+            <h3>Les repas</h3>
+            <p><strong>Samedi midi</strong> : Repas tiré du sac (chacun apporte de quoi pique-niquer).</p>
+            <p>Pour les autres repas, nous prévoyons les menus et vous demanderons de participer à la préparation et à la vaisselle.</p>
+            <p>Il est indispensable de vous inscrire pour les repas.</p>
+        </div>
+    
+        <div class="practical-info">
+            <h3>Le prix</h3>
+            <p>(À définir selon le nombre de participants – nous vous tiendrons informés).</p>
+        </div>
+    </div>
+    <div id="next-section" class="section">
+        <h3>Inscription et contact</h3>
+        <p>👉 <b>Pour vous inscrire :</b> remplissez le formulaire  <a href="https://lacensie.fr/marmite-sarthoise/" target="_blank">en cliquant ici</a></p>
+        <p>👉 Des questions ? C’est ici [petit formulaire question, pour nourrir la FAQ]</p>
+            
+        <h3>On a hâte de vous voir à La Censie !</h3>
+        <p>Venez nombreux pour partager un moment unique sous le signe de la joie, de la détente, et de l’amitié.</p>
+    </div>
+    
+</body>
+</html>
+<script>
+    const scrollButton = document.querySelector('.scroll-button');
+
+    scrollButton.addEventListener('click', function() {
+        scrollButton.classList.add('scroll-button-clicked');
+
+        setTimeout(() => {
+            scrollButton.classList.remove('scroll-button-clicked');
+        }, 1000);  
+    });
+</script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    var map = L.map('map').setView([47.95984393243805, -0.21842220770542303], 13); 
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([47.95984393243805, -0.21842220770542303]).addTo(map)
+        .bindPopup('La Censie, Sarthe')  
+        .openPopup();
+</script>
+
