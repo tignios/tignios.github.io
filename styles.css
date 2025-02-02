@@ -151,7 +151,7 @@ video {
     background-color: #f9f9f9;
     border-left: 4px solid #cbbb06;
     flex-grow: 1; 
-    min-width: 90%; 
+    min-width: 100%; 
 }
 
 .transport-options {
@@ -232,7 +232,7 @@ video {
     background-color: #f9f9f9;
     border-left: 4px solid #19d238;
     flex-grow: 1; 
-    min-width: 90%; 
+    min-width: 100%; 
 }
 
 .day-program h3 {
@@ -289,7 +289,7 @@ video {
     background-color: #f9f9f9;
     border-left: 4px solid #1976D2;
     flex-grow: 1; 
-    min-width: 90%; 
+    min-width: 100%; 
 }
 
 .practical-info h3 {
