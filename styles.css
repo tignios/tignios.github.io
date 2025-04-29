@@ -182,24 +182,38 @@ video {
 .button-group {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     width: 100%;
+    z-index: 10;
 }
 
 .scroll-button {
-    background: white;
-    color: black;
-    padding: 10px 20px;
-    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 30px;
     text-decoration: none;
-    font-size: 1.2rem;
-    transition: background 0.3s ease, transform 0.3s ease;
-    position: relative;
-    transform: none;
-    left: unset;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
 }
+
+.scroll-button:hover {
+    background: #333;
+    color: white;
+    transform: translateY(-2px);
+    border-color: white;
+}
+
+.scroll-button:active {
+    transform: scale(0.97);
+}
+
 
 
 @media (max-width: 768px) {
