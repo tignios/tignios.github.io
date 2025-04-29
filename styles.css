@@ -68,11 +68,6 @@ video {
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.scroll-button:hover {
-    background: black;
-    color: white;
-    transform: translateX(-50%) scale(1.1);
-}
 
 .scroll-button-clicked {
     animation: scroll-down 1s ease-in-out;
